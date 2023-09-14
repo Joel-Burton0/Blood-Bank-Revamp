@@ -18,7 +18,17 @@ function linklist2(){
     document.getElementById('link-item4').innerHTML = "Videos";
 }
 
-function rotator1(){
-    document
+const div1 = document.getElementById('hero-img-div1');
+const div2 = document.getElementById('hero-img-div2');
+const div3 = document.getElementById('hero-img-div3');
+
+let divArr = [div1, div2, div3];
+let index = 2;
+
+function addToClass(){
+    
+        divArr[index].style.backgroundColor = "red";
+    
 }
+
 // end of header scripting

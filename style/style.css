@@ -57,34 +57,41 @@ body{
 #hero-list2:hover {
     visibility: visible;
 }
-
+#hero-img-box{
+    display: flex;
+    justify-content: space-between;
+}
 .hero-img-div{
-    width: 500px;
-    height: 270px;
+    width: 30%;
+    height: 200px;
     background-color: aqua;
     display: flex;
     justify-content: space-evenly;
     position: relative;
     box-shadow: 2px 2px 2px black;
+    transition: 0.5s ease;
+    margin: 1%;
+    opacity: 0.4;
 }
 .hero-img-div img{
     /* left: 25%; */
     width: 50%;
     height: 100%;
 }
-#hero-img-div1{
-    left: 25%;
-    z-index: 10;
-}
+
 #hero-img-div2{
     background-color: green;
 }
 #hero-img-div3{
     background-color: yellow;
-    width: 300px;
-    height: 200px;
-    left: 100px;
-    opacity: 0.6;
+}
+.first-slide{
+    width: 500px;
+    height: 270px;
+    top: 50px;
+    z-index: 10;
+    left: 150px;
+    opacity: 1;
 }
 
 
@@ -108,7 +115,7 @@ body{
 }
 .info{
     border: px solid green;
-    width: 260px;
+    width: 320px;
     margin-left: 30px;
     text-align: center;
     padding: 50px;
