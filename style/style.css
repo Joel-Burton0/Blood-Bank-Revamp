@@ -66,6 +66,7 @@ input{
     background-size: 100% 100%;
     background-position: center center;
     background-repeat: no-repeat;
+    transition: 0.7s ease;
 }
 #hero-nav ul{
     display: flex;
@@ -119,7 +120,6 @@ input{
 .hero-img-div{
     width: 30%;
     height: 200px;
-    background-color: aqua;
     display: flex;
     justify-content: space-evenly;
     position: relative;
@@ -128,17 +128,27 @@ input{
     margin: 1%;
     opacity: 0.4;
     border-radius: 10px;
+    padding: 0 1%;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px black;
 }
 .hero-img-div img{
     /* left: 25%; */
     width: 50%;
     height: 100%;
 }
+.hero-img-div h2{
+    width: 50%;
+}
+#hero-img-div1{
+    background-image: url("/images/kacibg.jpg");
+}
 #hero-img-div2{
-    background-color: green;
+    background-image: url("/images/nature.png");
 }
 #hero-img-div3{
-    background-color: yellow;
+    background-image: url("/images/doctorbg.png");
 }
 
 .active-slide{

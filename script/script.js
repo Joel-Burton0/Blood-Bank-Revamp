@@ -24,9 +24,33 @@ const div3 = document.getElementById('hero-img-div3');
 
 let index = 0;
 
+// document.getElementById("hero-section").style.transition = "1s ease";
+
+
+
 function addToClass(){
-    div3.classList.add(active)
     
+    if(index == 0){
+        document.getElementById('hero-img-div1').classList.add("active-slide");
+        document.getElementById('hero-img-div2').classList.remove("active-slide");
+        document.getElementById('hero-img-div3').classList.remove("active-slide");
+    }
+    else if (index == 1){
+        document.getElementById('hero-img-div2').classList.add("active-slide");
+        document.getElementById('hero-img-div1').classList.remove("active-slide");
+        document.getElementById('hero-img-div3').classList.remove("active-slide");
+    }
+    else if( index == 2){
+        document.getElementById('hero-img-div3').classList.add("active-slide");
+        document.getElementById('hero-img-div2').classList.remove("active-slide");
+        document.getElementById('hero-img-div1').classList.remove("active-slide");
+    }
+    index ++;
+    if(index > 2){
+        index = 0;
+    }
 }
+
+setInterval(addToClass, 5000)
 
 // end of header scripting
