@@ -29,8 +29,10 @@ body{
 }
 #hero-list1{
     width: 90%;
-    margin: 0 auto;
-    height: 30px;
+    margin-top: none;
+    /* margin: 0 auto; */
+    /* height: 30px; */
+    padding-top: 1%;
 }
 #hero-list1 li{
     width: 170px;
@@ -49,6 +51,7 @@ body{
 #hero-list2{
     background:linear-gradient(to bottom, darkblue, blue) ;
     height: 30px;
+    padding: 1%;
     position: relative;
     top: -20px;
     transition: 0.3s ease;
