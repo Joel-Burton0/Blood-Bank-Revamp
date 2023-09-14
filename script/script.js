@@ -22,12 +22,10 @@ const div1 = document.getElementById('hero-img-div1');
 const div2 = document.getElementById('hero-img-div2');
 const div3 = document.getElementById('hero-img-div3');
 
-let divArr = [div1, div2, div3];
-let index = 2;
+let index = 0;
 
 function addToClass(){
-    
-        divArr[index].style.backgroundColor = "red";
+    div3.classList.add(active)
     
 }
 

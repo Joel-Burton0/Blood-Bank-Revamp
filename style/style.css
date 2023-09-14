@@ -127,25 +127,25 @@ input{
     transition: 0.5s ease;
     margin: 1%;
     opacity: 0.4;
+    border-radius: 10px;
 }
 .hero-img-div img{
     /* left: 25%; */
     width: 50%;
     height: 100%;
 }
-
 #hero-img-div2{
     background-color: green;
 }
 #hero-img-div3{
     background-color: yellow;
 }
-.first-slide{
+
+.active-slide{
     width: 500px;
     height: 270px;
     top: 50px;
     z-index: 10;
-    left: 150px;
     opacity: 1;
 }
 
