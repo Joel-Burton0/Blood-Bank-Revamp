@@ -1,3 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: 'Poppins', sans-serif;
+}
+/* Hero-div styling */
+#hero-section{
+    width: 100%;
+    height: 80vh;
+    background-image: url('/images/hero-background.jpg');
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#hero-nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-weight: bolder;
+    color: white;
+    margin-top: 20px;
+    text-shadow: 2px 2px 2px black;
+}
+#hero-nav ul li:hover{
+    cursor: pointer;
+}
+#hero-list1{
+    width: 90%;
+    margin: 0 auto;
+    height: 30px;
+}
+#hero-list1 li{
+    width: 170px;
+    border-right: 2px solid black;
+    text-align: center;
+}
+#hero-list1 li:nth-child(2){
+    border: none;
+}
+#hero-list1 li:nth-child(3){
+    border-left: 2px solid black ;
+}
+#hero-list1 li:nth-child(5){
+    border: none ;
+}
+#hero-list2{
+    background:linear-gradient(to bottom, darkblue, blue) ;
+    height: 30px;
+    position: relative;
+    top: -20px;
+    transition: 0.3s ease;
+    visibility: hidden;;
+}
+#hero-list2:hover {
+    visibility: visible;
+}
+#hero-img-box{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-img-div{
+    width: 30%;
+    height: 200px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    box-shadow: 2px 2px 2px black;
+    transition: 0.5s ease;
+    margin: 1%;
+    opacity: 0.4;
+}
+.hero-img-div img{
+    /* left: 25%; */
+    width: 50%;
+    height: 100%;
+}
+
+#hero-img-div2{
+    background-color: green;
+}
+#hero-img-div3{
+    background-color: yellow;
+}
+.first-slide{
+    width: 500px;
+    height: 270px;
+    top: 50px;
+    z-index: 10;
+    left: 150px;
+    opacity: 1;
+}
+
+
+
+/* End of hero styling */
+
 /* Nel section */
 .ready-donate{
     border: px solid red;
@@ -15,7 +115,7 @@
 }
 .info{
     border: px solid green;
-    width: 260px;
+    width: 320px;
     margin-left: 30px;
     text-align: center;
     padding: 50px;
@@ -40,7 +140,7 @@
     height: 160px;
     white-space: nowrap;
     position: relative;
-    background-color: rgba(255, 0, 0, 0.637);
+    background-color: rgba(255, 255, 255, 0.637);
 }
 .scroll::before,
 .scroll::after{
@@ -53,12 +153,12 @@
 }
 .scroll::before{
     left: 0;
-    background:linear-gradient(to left,rgba(255,255,255,0), rgb(150, 1, 1));
+    background:linear-gradient(to left,rgba(255,255,255,0), rgb(255, 255, 255));
  
 }
 .scroll::after{
     right: 0;
-    background:linear-gradient(to right,rgba(255,255,255,0), rgb(150, 1, 1));
+    background:linear-gradient(to right,rgba(255,255,255,0), rgb(255, 255, 255));
     
 }
 
@@ -85,7 +185,7 @@
     }
 }
 /* Ending of Joel's section */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');
+
 
 .container{
     font-family: 'Poppins', sans-serif;
