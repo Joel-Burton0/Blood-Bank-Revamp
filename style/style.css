@@ -77,16 +77,9 @@ body{
     z-index: 10;
 }
 #hero-img-div2{
-    z-index: 2;
-    bottom: 60%;
-    left: 60%;
     background-color: green;
-    width: 300px;
-    height: 200px;
-    opacity: 0.6;
 }
 #hero-img-div3{
-    bottom: 450px;
     background-color: yellow;
     width: 300px;
     height: 200px;
