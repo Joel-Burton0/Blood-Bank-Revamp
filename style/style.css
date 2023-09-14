@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+
 /* Shae  & Tianna */
 .head1{
     background:#000;
@@ -46,14 +57,6 @@ input{
 }
 /* Shae & Tianna */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');
-
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box ;
-    font-family: 'Poppins', sans-serif;
-}
 /* Hero-div styling */
 #hero-section{
     width: 100%;
