@@ -150,8 +150,10 @@ body{
 .ready-donate{
     border: px solid red;
     display: flex;
-    height: 300px;
+    height: 250px;
     background-color: red;
+    justify-content: center;
+    align-items: center;
 }
 .doctor{
     border: px solid blue;
@@ -241,4 +243,41 @@ body{
 }
 button{
     background: rgb(240, 27, 27)
+}
+.containertest{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: #D9D9D9;
+    font-weight: 400;
+    width: 100%;
+    font-size: 22px;
+
+
+}
+.testi button{
+    background: rgb(240, 27, 27);
+    /* border: 2px solid rgb(240, 27, 27);*/
+    border: 0;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 16px
+
+}
+
+.booklink{
+    color: #000;
+}
+.containertest1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: #fff;
+    font-weight: 400;
+    width: 100%;
+
+}
+.containertest1 p{
+    font-size: 20px;
+}
+li{
+    list-style: none;
 }
