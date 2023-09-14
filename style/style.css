@@ -256,14 +256,15 @@ input{
 .Blood-Info-Container{
     width: 100%;
     height: 1500px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    color: #fff;
 }
 .First-row{
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 500px;
-    border: 1px solid blue; 
+    /* border: 1px solid blue;  */
 }
 .First-row-Info{
     width: 50%;
@@ -284,7 +285,7 @@ input{
     flex-direction: row;
     width: 100%;
     height: 500px;
-    border: 1px solid blue; 
+    /* border: 1px solid blue;  */
 }
 .Second-row-Info{
     width: 50%;
@@ -306,7 +307,7 @@ input{
     flex-direction: row;
     width: 100%;
     height: 500px;
-    border: 1px solid blue; 
+    /* border: 1px solid blue;  */
 }
 .Third-row-Info{
     width: 50%;
@@ -320,13 +321,19 @@ input{
     width: 50%;
     height: 500px;
 }
+.Blood-Info-Container-links{
+    /* text-decoration: none; */
+    /* cursor: pointer; */
+    color: #fff;
+}
 /* MALVRICK END */
 .container{
     font-family: 'Poppins', sans-serif;
 
 }
-button{
-    background: rgb(240, 27, 27)
+#Blood-Info-Buttons{
+    background: rgb(240, 27, 27);
+    font-size: 18px;
 }
 .containertest{
     font-family: 'Poppins', sans-serif;
