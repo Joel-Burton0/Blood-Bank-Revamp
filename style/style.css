@@ -1,9 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* Shae  & Tianna */
+.head1{
+    background:#000;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+    color:#fff;
+    padding-top: 1%;
+}
+.head2{
+    background-repeat: no-repeat;
+    background-color: #fdfbfb;
+    height: 8vh;
+    position: relative; 
+    display: flex;
+    padding: 4%;
+    width: auto;
+    align-items: center;
+    justify-content: space-evenly;
+}   
+.header-nav ul{
+    display: flex;
+   background-color: #0a0a0a;
+   justify-content: space-evenly;
+   padding: 2px 6px;
+   height: 8vh;
+   
+
+}
+.header-nav ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding-left: 5px;
+    margin-top: 15px;
+}
+.header-nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+input{
+    margin-left: 40%;
+    height: 20px;
+    margin-top: 15px;
+}
+/* Shae & Tianna */
+
+/* Hero-div styling */
+#hero-section{
+    width: 100%;
+    height: 80vh;
+    background-image: url('/images/hero-background.jpg');
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#hero-nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-weight: bolder;
+    color: white;
+    margin-top: 20px;
+    text-shadow: 2px 2px 2px black;
+}
+#hero-nav ul li:hover{
+    cursor: pointer;
+}
+#hero-list1{
+    width: 90%;
+    margin-top: none;
+    /* margin: 0 auto; */
+    /* height: 30px; */
+    padding-top: 1%;
+}
+#hero-list1 li{
+    width: 170px;
+    border-right: 2px solid black;
+    text-align: center;
+}
+#hero-list1 li:nth-child(2){
+    border: none;
+}
+#hero-list1 li:nth-child(3){
+    border-left: 2px solid black ;
+}
+#hero-list1 li:nth-child(5){
+    border: none ;
+}
+#hero-list2{
+    background:linear-gradient(to bottom, darkblue, blue) ;
+    height: 30px;
+    padding: 1%;
+    position: relative;
+    top: -20px;
+    transition: 0.3s ease;
+    visibility: hidden;;
+}
+#hero-list2:hover {
+    visibility: visible;
+}
+#hero-img-box{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-img-div{
+    width: 30%;
+    height: 200px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    box-shadow: 2px 2px 2px black;
+    transition: 0.5s ease;
+    margin: 1%;
+    opacity: 0.4;
+}
+.hero-img-div img{
+    /* left: 25%; */
+    width: 50%;
+    height: 100%;
+}
+
+#hero-img-div2{
+    background-color: green;
+}
+#hero-img-div3{
+    background-color: yellow;
+}
+.first-slide{
+    width: 500px;
+    height: 270px;
+    top: 50px;
+    z-index: 10;
+    left: 150px;
+    opacity: 1;
+}
+
+
+
+/* End of hero styling */
+
 /* Nel section */
 .ready-donate{
     border: px solid red;
     display: flex;
-    height: 300px;
+    height: 250px;
     background-color: red;
+    justify-content: center;
+    align-items: center;
 }
 .doctor{
     border: px solid blue;
@@ -15,7 +172,7 @@
 }
 .info{
     border: px solid green;
-    width: 260px;
+    width: 320px;
     margin-left: 30px;
     text-align: center;
     padding: 50px;
@@ -40,7 +197,7 @@
     height: 160px;
     white-space: nowrap;
     position: relative;
-    background-color: rgba(255, 0, 0, 0.637);
+    background-color: rgba(255, 255, 255, 0.637);
 }
 .scroll::before,
 .scroll::after{
@@ -53,12 +210,12 @@
 }
 .scroll::before{
     left: 0;
-    background:linear-gradient(to left,rgba(255,255,255,0), rgb(150, 1, 1));
+    background:linear-gradient(to left,rgba(255,255,255,0), rgb(255, 255, 255));
  
 }
 .scroll::after{
     right: 0;
-    background:linear-gradient(to right,rgba(255,255,255,0), rgb(150, 1, 1));
+    background:linear-gradient(to right,rgba(255,255,255,0), rgb(255, 255, 255));
     
 }
 
@@ -157,7 +314,7 @@
 
 /* MALVRICK END */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');
+
 
 .container{
     font-family: 'Poppins', sans-serif;
@@ -166,4 +323,94 @@
 #Blood-Info-Buttons{
     background: rgb(240, 27, 27);
     font-size: 24px;
+}
+.containertest{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: #D9D9D9;
+    font-weight: 400;
+    width: auto;
+    font-size: 22px;
+    padding: 5px;
+
+
+}
+.testi button{
+    background: rgb(240, 27, 27);
+    /* border: 2px solid rgb(240, 27, 27);*/
+    border: 0;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 16px
+
+}
+
+.booklink{
+    color: #000;
+}
+.containertest1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: #fff;
+    font-weight: 400;
+    width: auto;
+
+}
+.containertest1 p{
+    font-size: 20px;
+}
+li{
+    list-style: none;
+}
+
+.top{
+    background-color: rgb(180, 178, 178);
+    display: flex; 
+    /* border: 2px solid #000; */
+    justify-content: space-between;
+    height: 300px;
+}
+.copyright{
+    background: #000 ;
+    color:#fff;
+    /* width: 100%; */
+    height: 60px;
+    /* border: 2px solid red; */
+    padding: 15px;
+    padding-left: 10%;
+}
+.top ul{
+    width: 30%;
+    text-align: center;
+    list-style: none;
+    padding: 1%;
+}
+.top ul:nth-child(1), .top ul:nth-child(2){
+    border-right: 1px solid gray;
+}
+#one{
+    border-right: 2px solid #7e5858;
+    width: 20% ;
+    height: 40vh;
+    text-align: center;
+    /* border-top: none;
+    border-left: none;
+    border-bottom: none; */
+    /* margin: auto; */
+     padding-right: 25px; 
+}
+
+#two{
+    /* border: 5px solid #2e0971; */
+    width: 20% ;
+    height: 40vh;
+    text-align: center;
+}
+.footer-info {
+    background-color: rgb(180, 178, 178);
+    /* border: 3px solid blue; */
+    height: 100px;
+    width: 100%;
+    text-align: center;
+
 }
