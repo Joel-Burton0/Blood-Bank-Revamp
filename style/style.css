@@ -385,6 +385,7 @@ li{
     /* border: 2px solid #000; */
     justify-content: space-between;
     height: 300px;
+    /* font-weight: bolder; */
 }
 .copyright{
     background: #000 ;
@@ -400,6 +401,7 @@ li{
     text-align: center;
     list-style: none;
     padding: 1%;
+    font-weight: bolder;
 }
 .top ul:nth-child(1), .top ul:nth-child(2){
     border-right: 1px solid gray;
@@ -423,7 +425,7 @@ li{
     text-align: center;
 }
 .footer-info {
-    background-color: rgb(180, 178, 178);
+    background-color: rgb(51, 217, 247);
     /* border: 3px solid blue; */
     height: 100px;
     width: 100%;
